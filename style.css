@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+.background {
+    width: 500px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.display {
+    height: 15%;
+    width: 100%;
+    padding-right: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.row {
+    height: 17%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+
+.btn-quarter {
+    width: 24.5%;
+}
+
+.btn-half {
+    width: 49.6%;
+}
+
+.btn-three-quarter {
+    width: 74.9%;
+}
+
+.layout-1 {
+    background-color: lightgrey;
+}
+
+.layout-1:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.layout-1:active {
+    background-color: darkgrey;
+}
+
+.layout-2 {
+    background-color: rgb(196, 145, 52);
+    color: white;
+}
+
+.layout-2:hover {
+    background-color: rgb(230, 179, 86);
+}
+
+.layout-2:active {
+    background-color: rgb(151, 108, 28);
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.last-row {
+    margin-bottom: 0%;
+}
